@@ -1,8 +1,52 @@
-*{
+/* *{
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
     text-decoration: none;
-}
+} */
 body{
+    margin: 0;
     font-family: 'Lato', sans-serif;
+}
+section{
+    height: 400px;
+    padding-bottom: 150px;
+}
+.half_design{
+    float: left;
+    width:40%;
+   padding-left: 2%;
+    margin-left: 5%;
+}
+.about_me{
+    background-image: url(images/top-banner.png);
+    background-repeat:no-repeat;
+    background-position: left;
+}
+.orange{
+    color: orange;
+}
+h1{
+   
+    font-weight: 700;
+    font-size: 50px;
+}
+.hire_me{
+    background:linear-gradient(45deg,tomato, olive);
+    padding: 5px 20px ; 
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.half_design img{
+    width: 100%;
+   
+}
+.about_dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.My_expriencearea div{
+ box-shadow: 10px 15px 40px gray;
 }
